@@ -1,5 +1,5 @@
 export const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Origin": 'https://ens.demo.harmony.one',
   "Access-Control-Allow-Methods": "GET, PUT, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type",
 };

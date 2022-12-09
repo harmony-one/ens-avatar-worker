@@ -43,7 +43,7 @@ export default {
         return onRequestGet(request, env, ctx, name, network, true);
       }
       case "OPTIONS": {
-        return makeResponse(null);
+        return makeResponse(null, 200);
       }
       default:
         return makeResponse(`Unsupported method: ${request.method}`, 405);

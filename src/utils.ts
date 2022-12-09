@@ -54,7 +54,8 @@ export const getOwnersAndAvailable = async (
   network: string,
   name: string
 ) => {
-  const handleFetch = _handleFetch(env.BASE_WEB3_ENDPOINT + "/" + network);
+  // const handleFetch = _handleFetch(env.BASE_WEB3_ENDPOINT + "/" + network);
+  const handleFetch = _handleFetch(env.BASE_WEB3_ENDPOINT);
   const wrapperAddress = JSON.parse(env.WRAPPER_ADDRESS)[network];
 
   const labels = name.split(".");
